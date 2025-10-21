@@ -1,0 +1,15 @@
+bin/rspec spec/models/post_spec.rb
+bin/rspec
+bin/rspec spec/views/posts/edit.html.erb_spec.rb
+bundle exec rspec spec/views/posts/edit.html.erb_spec.rb --format documentation
+bundle exec rspec spec/views/posts/index.html.erb_spec.rb
+bundle exec rspec spec/views/posts/new.html.erb_spec.rb
+bundle exec rspec spec/views/posts/show.html.erb_spec.rb
+bundle exec rspec spec/routing/posts_routing_spec.rb
+bundle exec rspec spec/requests/posts_spec.rb
+bundle exec rspec spec/requests/posts_spec.rb:43
+bundle exec rspec spec/requests/posts_spec.rb:45
+bundle exec rspec spec/requests/posts_spec.rb:53
+bundle exec rspec spec/requests/posts_spec.rb:61
+bundle exec rspec spec/requests/posts_spec.rb:76
+bundle exec rspec spec/helpers/posts_helper_spec.rb
