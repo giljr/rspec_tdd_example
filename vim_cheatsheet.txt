@@ -1,0 +1,49 @@
+Vim Cheat Sheet for Rails Development in tmux
+============================================
+
+1️⃣ Modes
+---------
+Normal mode: Esc        → Navigate, issue commands
+Insert mode: i          → Type/edit text
+Command mode: :         → Enter commands like save/quit
+
+Mnemonic: "Escapes to Normal, then : for Commands"
+
+2️⃣ Saving & Exiting
+-------------------
+Write & Quit: :wq       → Write your changes, then quit
+Quit without saving: :q! → Force quit without writing
+Just quit: :q           → Quit only if nothing changed
+
+Mnemonic for :wq → "Write first, then Quit"
+
+Steps:
+1. Esc → Normal mode
+2. : → Command mode
+3. wq → Write & quit
+4. Enter → Done
+
+
+3️⃣ Basic Navigation (Normal mode)
+---------------------------------
+h → left - horizontal left 
+j → down - jump down
+k → up - climb
+l → right - lateral
+gg → go to top
+G → go to bottom
+
+
+4️⃣ Quick Editing
+----------------
+i → insert at cursor
+a → append after cursor
+x → delete character under cursor
+dd → delete current line
+
+
+5️⃣ Bonus for Rails
+------------------
+Open file in tmux pane: vim Gemfile
+Split panes: Ctrl+b " (horizontal), Ctrl+b % (vertical)
+Move between panes: Ctrl+b + arrow keys
